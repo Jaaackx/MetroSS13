@@ -2,33 +2,11 @@
 
 /datum/map/metro
 	allowed_jobs = list(
-	/datum/job/captain,
-	/datum/job/envoy,
-	/datum/job/inquisitor,
-	/datum/job/acolyte,
-	/datum/job/cmo,
-	/datum/job/doctor,
-	/datum/job/progena,
-	/datum/job/ig/medicae,
-	/datum/job/chemist,
-	/datum/job/geneticist,
-	/datum/job/magos,
-	/datum/job/engineer,
-	/datum/job/hop,
-	/datum/job/chef,
-	/datum/job/janitor,
-	/datum/job/bartender,
-	/datum/job/mining,
-	/datum/job/cargo_tech,
-	/datum/job/qm,
-	/datum/job/chaplain,
-	/datum/job/sisterofbattle,
-	/datum/job/qm2,
-	/datum/job/enforcer,
-	/datum/job/innkeeper,
-	/datum/job/hydro,
-	/datum/job/undertaker,
-	/datum/job/penitent,
+	/datum/job/station,
+	/datum/job/station/proprietor,
+	/datum/job/station/cook,
+	/datum/job/station/amuser,
+	/datum/job/refugee,
 	)
 
 /mob/living/carbon/human/proc/warfare_language_shit(var/language_name) //reworked from matts original intention, the default language is gothic, this will allow you to now add a faction specific language.
