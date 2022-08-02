@@ -23,7 +23,7 @@
 	outfit_type = /decl/hierarchy/outfit/job/engineering/chief_engineer
 	access = list(access_engine, access_engine_equip, access_tech_storage, access_maint_tunnels,
 			            access_teleporter, access_external_airlocks, access_atmospherics, access_emergency_storage, access_eva,
-			            access_heads, access_construction, access_sec_doors, access_robotics, access_medical, access_morgue, 
+			            access_heads, access_construction, access_sec_doors, access_robotics, access_medical, access_morgue,
 						access_surgery, access_chemistry, access_virology, access_genetics,
 			            access_ce, access_RC_announce, access_keycard_auth, access_tcomsat, access_ai_upload, access_research,)
 	minimal_access = list(access_engine, access_engine_equip, access_tech_storage, access_maint_tunnels,
@@ -40,10 +40,10 @@
 		H.fully_replace_character_name("Magos [current_name]")
 		H.add_stats(rand(14,16), rand(14,16), rand(15,18), rand(20,24)) //idk what to do with Magos xd
 		H.add_skills(rand(6,10),rand(6,10),rand(6,7),rand(10,12),rand(7,9)) //melee, ranged, med, eng, surgery
-		H.warfare_faction = IMPERIUM
+		H.warfare_faction = STATION
 		H.set_trait(new/datum/trait/death_tolerant()) //although Noble, he has no nose and is a psychopath, no reason he should be vomiting around
 		H.warfare_language_shit(LANGUAGE_MECHANICUS)
-		H.warfare_language_shit(LANGUAGE_HIGH_GOTHIC)
+		H.warfare_language_shit(LANGUAGE_RUSSIAN)
 		to_chat(H, "<span class='notice'><b><font size=3>You are the Magos Dominus, you are a specialist in all forms of technology. You are the highest ranking member of the Adeptus Mechanicus on the outpost, your duty is to ensure all machine spirits remain happy and willing to work. Use your talents and the skills of your tech priests to further the goals of the Mechanicus. Praise the Omnissiah!</font></b></span>")
 		H.bladder = -INFINITY
 		H.bowels = -INFINITY //he's too heavily modified to require things like a toilet
@@ -85,7 +85,7 @@
 		H.add_stats(rand(14,16), rand(14,16), rand(12,15), rand(14,16)) //idk what to do with Magos xd
 		H.add_skills(rand(6,8),rand(4,8),rand(5,6),rand(7,10),rand(5,7)) //melee, ranged, med, eng, surgery
 		H.warfare_language_shit(LANGUAGE_MECHANICUS)
-		H.warfare_faction = IMPERIUM
+		H.warfare_faction = STATION
 		H.bladder = -INFINITY
 		H.bowels = -INFINITY //he's too heavily modified to require things like a toilet
 		H.thirst = INFINITY
@@ -124,17 +124,17 @@
 		..()
 		H.fully_replace_character_name("Biologis [current_name]")
 		H.set_trait(new/datum/trait/death_tolerant()) //They literally open up dead bodies of xenos and humans alike, why would they be disgusted of organs and blood?
-		H.add_stats(rand(14,16), rand(14,16), rand(10,13), rand(20,30)) 
+		H.add_stats(rand(14,16), rand(14,16), rand(10,13), rand(20,30))
 		H.add_skills(rand(6,9),rand(4,7),rand(8,11),rand(7,10),rand(10,12)) //melee, ranged, med, eng, surgery
 		H.warfare_language_shit(LANGUAGE_MECHANICUS)
-		H.warfare_faction = IMPERIUM
+		H.warfare_faction = STATION
 		H.bladder = -INFINITY
 		H.bowels = -INFINITY //he's too heavily modified to require things like a toilet
 		H.thirst = INFINITY
 		H.nutrition = INFINITY //he is sustained by the Omnissiah, he requires neither food nor drink
 		to_chat(H, "<span class='notice'><b><font size=3>You are a Magos Biologis, you are a expert on xenos and biological research, your primary duty is to oversee the construction of Skitarii, you are not forced to listen to the Magos Dominus, but be aware, he holds much more power in the outpost than you.</font></b></span>")
 
-		
+
 //Walker here, why the fuck does this even exist? all Genetors research aliens, thats like, their speciality, who added this in? im not going to remove it for now but, idk why its here.
 // Magos Biologis Xenobiologist
 /*

@@ -71,9 +71,9 @@
 				H.add_skills(13, 13, 2, 11, 1)*/
 		H.set_trait(new/datum/trait/death_tolerant())
 		H.get_idcard()?.access = get_all_accesses()
-		H.warfare_language_shit(LANGUAGE_LOW_GOTHIC)
-		H.warfare_language_shit(LANGUAGE_HIGH_GOTHIC)
-		H.warfare_faction = IMPERIUM
+		H.warfare_language_shit(LANGUAGE_RUSSIAN)
+		H.warfare_language_shit(LANGUAGE_RUSSIAN)
+		H.warfare_faction = STATION
 		to_chat(H, "<span class='notice'><b><font size=3>You are a Space Marine, hired to guard the Rogue Trader and further the goals of the Imperium. You are a beacon of Mankind's greatness, your behavior should reflect this always. Guardsmen revere you and will defer to your judgement, make sure it is sound.</font></b></span>")
 		H.gender = MALE
 		H.f_style = "shaved"

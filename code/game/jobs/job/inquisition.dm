@@ -34,9 +34,9 @@
 		H.assign_random_quirk()
 		H.witchblood()
 		H.set_trait(new/datum/trait/death_tolerant())
-		H.warfare_language_shit(LANGUAGE_LOW_GOTHIC )
-		H.warfare_language_shit(LANGUAGE_HIGH_GOTHIC )
-		H.warfare_faction = IMPERIUM
+		H.warfare_language_shit(LANGUAGE_RUSSIAN )
+		H.warfare_language_shit(LANGUAGE_RUSSIAN )
+		H.warfare_faction = STATION
 		H.get_idcard()?.access = get_all_accesses()
 		to_chat(H, "<span class='notice'><b><font size=3>You are an interrogator-in-training, referred as Acolyte, Your task is to assist the Lord Inquisitor in investigating, neutralising and erasing traces of heresy, chaos, xenos and daemons. Should you fail in your duties, you have no doubt of what will become of you -- this may be your final test.</font></b></span>")
 
@@ -81,10 +81,10 @@
 		H.add_stats(rand(17,20), rand(17,20), rand(17,20), rand(17,20)) //PRAISE THE EMPEROR
 		H.add_skills(10,10,rand(7,10),rand(5,7),rand(7,8)) //melee, ranged, med, eng, surgery
 		H.assign_random_quirk()
-		H.warfare_language_shit(LANGUAGE_LOW_GOTHIC )
-		H.warfare_language_shit(LANGUAGE_HIGH_GOTHIC )
+		H.warfare_language_shit(LANGUAGE_RUSSIAN )
+		H.warfare_language_shit(LANGUAGE_RUSSIAN )
 		H.set_trait(new/datum/trait/death_tolerant())
-		H.warfare_faction = IMPERIUM
+		H.warfare_faction = STATION
 		H.witchblood()
 		H.inquisitor = 1
 		H.get_idcard()?.access = get_all_accesses()

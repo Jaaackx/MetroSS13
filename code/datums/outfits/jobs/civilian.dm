@@ -78,11 +78,10 @@
 	id_type = /obj/item/card/id/civilian/janitor
 	pda_type = null
 	pda_slot = null
-	head = /obj/item/clothing/head/servitorhead/janitor
 	l_ear = /obj/item/device/radio/headset/red_team
 	r_ear = null
 	suit = /obj/item/clothing/suit/servitor/janitor
-	back = /obj/item/storage/backpack/satchel/servitor
+	back = /obj/item/storage/backpack/satchel/warfare
 
 /decl/hierarchy/outfit/job/librarian
 	name = OUTFIT_JOB_NAME("Record Keeper")

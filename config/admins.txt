@@ -5,5 +5,5 @@
 # Ranks can be anything defined in admin_ranks.txt           ~Carn   #
 ######################################################################
 
-Apple5382 - SeniorAdmin
-Conzie - SeniorAdmin
+Jaaackx - Host
+DroolingTilde - Host

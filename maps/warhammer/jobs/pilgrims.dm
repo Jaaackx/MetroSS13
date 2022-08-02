@@ -12,10 +12,10 @@
 
 
 	equip(var/mob/living/carbon/human/H)
-		H.warfare_faction = IMPERIUM
+		H.warfare_faction = STATION
 		..()
 		H.add_stats(rand(6,11), rand(7,12), rand(8,12), rand (8,11)) //they suck and are supposed to suck
-		H.warfare_language_shit(LANGUAGE_LOW_GOTHIC)
+		H.warfare_language_shit(LANGUAGE_RUSSIAN)
 		H.assign_random_quirk()
 		H.witchblood()
 		H.verbs += list(
@@ -39,10 +39,10 @@ Pilgrim Fate System
 //mob/living/carbon/human/proc/penitentclass(var/mob/living/carbon/human/M)
 /mob/living/carbon/human/proc/penitentclass()
 	set name = "Select your class"
-	set category = "Pilgrim"
-	set desc = "Choose your new profession on this strange world."
+	set category = "Refugee"
+	set desc = "Choose your profession in this strange world."
 	if(!ishuman(src))
-		to_chat(src, "<span class='notice'>How tf are you seeing this, ping Wel Ard immediately</span>")
+		to_chat(src, "<span class='notice'>Hey bozo, you shouldn't be able to see this. Ping a dev.</span>")
 		return
 	if(src.stat == DEAD)
 		to_chat(src, "<span class='notice'>You can't choose a class when you're dead.</span>")
@@ -189,10 +189,10 @@ Pilgrim Fate System
 	announced = FALSE
 
 	equip(var/mob/living/carbon/human/H)
-		H.warfare_faction = IMPERIUM
+		H.warfare_faction = STATION
 		..()
 		H.add_stats(rand(9,12), rand(7,12), rand(8,12), rand (8,11)) //they suck and are supposed to suck
-		H.warfare_language_shit(LANGUAGE_LOW_GOTHIC)
+		H.warfare_language_shit(LANGUAGE_RUSSIAN)
 		H.assign_random_quirk()
 		H.verbs += list(
 		/mob/living/carbon/human/proc/khorne,
@@ -221,10 +221,10 @@ Pilgrim Fate System
 	announced = FALSE
 
 	equip(var/mob/living/carbon/human/H)
-		H.warfare_faction = IMPERIUM
+		H.warfare_faction = STATION
 		..()
 		H.add_stats(rand(10,12), rand(9,12), rand(10,12), rand (12,15)) //a lil better fed than others.
-		H.warfare_language_shit(LANGUAGE_LOW_GOTHIC)
+		H.warfare_language_shit(LANGUAGE_RUSSIAN)
 		H.assign_random_quirk()
 		H.verbs += list(
 		/mob/living/carbon/human/proc/khorne,
@@ -237,7 +237,7 @@ Pilgrim Fate System
 //loadouts below here
 /decl/hierarchy/outfit/job/penitent
 	name = OUTFIT_JOB_NAME("Pilgrim")
-	uniform = /obj/item/clothing/under/rank/penitent
+	uniform = /obj/item/clothing/under/rank/station
 	neck = /obj/item/reagent_containers/food/drinks/canteen
 	shoes = /obj/item/clothing/shoes/prac_boots
 	l_ear = null

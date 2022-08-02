@@ -393,6 +393,13 @@
 #define TAU "Tau"
 #define TYRANIDS "Tyranids"
 
+//Metro Factions
+#define STATION "Cheshov Prospekt"
+#define REDLINE "Red Line"
+#define FOURTHREICH "Fourth Reich"
+#define HANSA "Hansa"
+#define BANDIT "Bandits"
+
 /*
 #define SKILL_LOW(x) x<=4
 

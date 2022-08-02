@@ -37,9 +37,9 @@ var/datum/announcement/minor/captain_announcement = new(do_newscast = 1)
 		H.fully_replace_character_name("Lord Trader [current_name]")
 		H.add_stats(rand(14,18), rand(14,18), rand(14,18), rand(14,18))
 		H.add_skills(rand(6,10),rand(6,10),rand(5,6),rand(1,8),rand(1,8)) //melee, ranged, med, eng, surgery
-		H.warfare_language_shit(LANGUAGE_LOW_GOTHIC)
-		H.warfare_language_shit(LANGUAGE_HIGH_GOTHIC )
-		H.warfare_faction = IMPERIUM
+		H.warfare_language_shit(LANGUAGE_RUSSIAN)
+		H.warfare_language_shit(LANGUAGE_RUSSIAN )
+		H.warfare_faction = STATION
 		H.verbs += list(/mob/living/carbon/human/proc/hire,)
 		to_chat(H, "<span class='notice'><b><font size=3>You are a Rogue Trader, the owner and leader of this outpost. You wield a golden writ of authority directly from the High Lords of Terra themselves. None can command you except your lust for profit and your mission to expand Imperial influence.</font></b></span>")
 
@@ -82,9 +82,9 @@ var/datum/announcement/minor/captain_announcement = new(do_newscast = 1)
 		..()
 		H.add_stats(rand(12,14), rand(16,18), rand(10,13), rand(13,18)) //they are like rogues but smarter and faster
 		H.add_skills(rand(7,10),rand(7,10),rand(5,6),rand(4,8),rand(1,6)) //melee, ranged, med, eng, surgery
-		H.warfare_language_shit(LANGUAGE_LOW_GOTHIC )
-		H.warfare_language_shit(LANGUAGE_HIGH_GOTHIC )
-		H.warfare_faction = IMPERIUM
+		H.warfare_language_shit(LANGUAGE_RUSSIAN )
+		H.warfare_language_shit(LANGUAGE_RUSSIAN )
+		H.warfare_faction = STATION
 		to_chat(H, "<span class='notice'><b><font size=3>You are the Steward and personal aid to the Lord Trader acting as their Major-Domo, you interact with the Administratum and Munitorium on behalf of your Lord while wielding some semblence of the golden writ of authority in their absence.</font></b></span>")
 
 

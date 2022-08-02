@@ -12,10 +12,10 @@
 
 
 	equip(var/mob/living/carbon/human/H)
-		H.warfare_faction = IMPERIUM
+		H.warfare_faction = STATION
 		..()
 		H.add_stats(rand(6,11), rand(7,12), rand(8,12), rand (8,11)) //they suck and are supposed to suck
-		H.warfare_language_shit(LANGUAGE_LOW_GOTHIC)
+		H.warfare_language_shit(LANGUAGE_RUSSIAN)
 		H.assign_random_quirk()
 		H.witchblood()
 		H.verbs += list(
@@ -208,11 +208,11 @@ Pilgrim Fate System
 	announced = FALSE
 
 	equip(var/mob/living/carbon/human/H)
-		H.warfare_faction = IMPERIUM
+		H.warfare_faction = STATION
 		..()
 		H.add_stats(rand(13,15), rand(13,15), rand(8,12), rand (8,11)) //they suck and are supposed to suck
 		H.add_skills(rand(6,9),rand(2,6),rand(2,4),rand(2,3),rand(1,3)) //melee, ranged, med, eng, surgery
-		H.warfare_language_shit(LANGUAGE_LOW_GOTHIC)
+		H.warfare_language_shit(LANGUAGE_RUSSIAN)
 		H.assign_random_quirk()
 		H.verbs += list(
 		/mob/living/carbon/human/proc/khorne,
@@ -247,22 +247,22 @@ Pilgrim Fate System
 	smg_skill = 8
 
 	equip(var/mob/living/carbon/human/H)
-		H.warfare_faction = IMPERIUM
+		H.warfare_faction = STATION
 		..()
 		H.fully_replace_character_name("Lord [current_name]")
 		H.add_skills(rand(5,8),rand(5,8),rand(5,8),rand(5,8),rand(5,8)) //melee, ranged, med, eng, surgery
 		H.add_stats(rand(14,16), rand(14,16), rand(12,18), rand (12,18)) //a lil better fed than others.
-		H.warfare_language_shit(LANGUAGE_LOW_GOTHIC)
+		H.warfare_language_shit(LANGUAGE_RUSSIAN)
 		H.assign_random_quirk()
-		H.warfare_language_shit(LANGUAGE_LOW_GOTHIC)
-		H.warfare_language_shit(LANGUAGE_HIGH_GOTHIC)
-		H.warfare_faction = IMPERIUM
+		H.warfare_language_shit(LANGUAGE_RUSSIAN)
+		H.warfare_language_shit(LANGUAGE_RUSSIAN)
+		H.warfare_faction = STATION
 		to_chat(H, "<span class='notice'><b><font size=3>You are a member of an ancient Imperial House on this planet. You act as a go-between for the village and your merchant contacts on the outer systems. Work with your Servant Penitent to ensure the continued survival of your house, it is imperative that the line of succession remains unbroken. Ensure there are pilgrims working the farm and that the clinic is staffed, you are as reliant on them as they are upon you. </font></b></span>")
 
 //loadouts below here
 /decl/hierarchy/outfit/job/penitent
 	name = OUTFIT_JOB_NAME("Pilgrim")
-	uniform = /obj/item/clothing/under/rank/penitent
+	uniform = /obj/item/clothing/under/rank/station
 	neck = /obj/item/reagent_containers/food/drinks/canteen
 	shoes = /obj/item/clothing/shoes/prac_boots
 	l_ear = null

@@ -38,8 +38,8 @@
 		H.add_skills(rand(9,10),rand(7,10),rand(3,5),3,rand(2,4)) //melee, ranged, med, eng, surgery
 		H.assign_random_quirk()
 //		H.witchblood() //Psyker Enforcers don't exist
-		H.warfare_language_shit(LANGUAGE_LOW_GOTHIC )
-		H.warfare_faction = IMPERIUM
+		H.warfare_language_shit(LANGUAGE_RUSSIAN )
+		H.warfare_faction = STATION
 		H.get_idcard()?.access = list(access_security, access_sec_doors, access_brig, access_forensics_lockers, access_all_personal_lockers, access_maint_tunnels,)
 
 		to_chat(H, "<span class='notice'><b><font size=3>You are a proud officer of the Magistratum, your duty is to uphold Imperial law on this planet amongst the Pilgrims and to assist the Rogue Trader where necessary. Your duties involve the investigation of crimes committed on behalf of the magistratum, collection of tithes and the interrogation or execution of criminals apprehended by the Magistratum.</font></b></span>")

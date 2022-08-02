@@ -254,7 +254,7 @@
 	worn_state = "explorer"
 
 //pilgrim stuff
-/obj/item/clothing/under/rank/penitent
+/obj/item/clothing/under/rank/station
 	desc = "A simple jumpsuit, usually worn by poorest citizens of the Imperium of Man."
 	name = "simple jumpsuit"
 	icon_state = "jumpsuitdown"

@@ -1,16 +1,11 @@
 
 
-/datum/map/warhammer
+/datum/map/metro
 	allowed_jobs = list(
 	/datum/job/captain,
 	/datum/job/envoy,
 	/datum/job/inquisitor,
 	/datum/job/acolyte,
-	/datum/job/ig/commissar,
-	/datum/job/ig/sergeant,
-	/datum/job/ig/guardsman,
-	/datum/job/ig/guardsman/sharpshooter,
-	/datum/job/ig/whiteshield,
 	/datum/job/cmo,
 	/datum/job/doctor,
 	/datum/job/progena,
