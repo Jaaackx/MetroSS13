@@ -439,12 +439,12 @@
 		"Team Red"=list("color"="#b27676", "jobs"=list()),
 		"Team Blue"=list("color"="#76abb2", "jobs"=list()),
 		"Command"=list("color"="#76abb2", "jobs"=list()),
-		"Imperial Guard"=list("color"="#b27676", "jobs"=list()),
+		"Military"=list("color"="#b27676", "jobs"=list()),
 		"Village"=list("color"="#ff0bebea", "jobs"=list()),
 		"Adeptus Mechanicus"=list("color"="#f03e08", "jobs"=list()),
-		"Outpost Medical Staff"=list("color"="#76abb2", "jobs"=list()),
-		"Supply"=list("color"="#76abb2", "jobs"=list()),
-		"Outpost Support Staff"=list("color"="#76abb2", "jobs"=list()),
+		"Clinic"=list("color"="#76abb2", "jobs"=list()),
+		"Merchant"=list("color"="#76abb2", "jobs"=list()),
+		"Civilian"=list("color"="#76abb2", "jobs"=list()),
 		"Inquisition"=list("color"="#fd0707", "jobs"=list()),
 		"Village"=list("color"="#ff0bebea", "jobs"=list()),
 		"Misc"=list("color"="Grey", "jobs"=list()),
@@ -642,16 +642,16 @@ mob/new_player/MayRespawn()
 	show_new_information()
 
 /mob/new_player/proc/show_new_information()
-	var/dat = {"<h2>Grimdark 13</h2>
-Hello! It appears you are new here! Thanks for joining Grimdark 13. We recommend that if you are new to the Grimdark of 40k to do a deep dive into the lore of 40k.
+	var/dat = {"<h2>Metro 13</h2>
+Hello! It appears you are new here! Thanks for joining Metro 13. We recommend that if you are new to the world of the Moscow Metro, you read through the wiki to get the basics.
 <h3>Discord Link</h3>
-<font size='4'><a href=\"https://discord.gg/xthVK85W3M\">Discord</a></font>
+<font size='4'><a href=\"https://discord.gg/TB7jSwVHtQ\">Discord</a></font>
 <h3>Wiki Link</h3>
 <font size='4'><a href=\"http://is12wiki.xyz/index.php/Main_Page\">Wiki</a></font>
 <h3>Lexicanum</h3>
-<font size='4'><a href=\"https://wh40k.lexicanum.com/wiki/Portal:Imperium\">Wiki</a></font>
+<font size='4'><a href=\"https://metrovideogame.fandom.com/wiki/Metro_Wiki\">Wiki</a></font>
 <h3>Server Summary</h3>
-Grimdark 13 is a Warhammer 40k SS13 server running a modified version of the IS12 codebase. 
+Metro 13 is a Metro 2033 SS13 server running a modified version of the IS12 codebase.
 <h3>Some Notes</h3>
 Controls are ingame under the \"view controls\" button in OOC.
 <h3>Enjoy your stay!</h3>"}

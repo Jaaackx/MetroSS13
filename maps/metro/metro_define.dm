@@ -1,15 +1,15 @@
 
 /datum/map/metro
-	name = "Lermontovsky Prospekt"
-	full_name = "Lermontovsky Prospekt"
-	path = "warhammer"
+	name = "Cheshov Prospekt"
+	full_name = "Cheshov Prospekt"
+	path = "metro"
 	station_name  = "Only Metro, Nothing Else"
 	station_short = "Zarechny"
 	dock_name     = "Zarechny"
 	boss_name     = ""
 	boss_short    = ""
-	company_name  = "Station Council"
-	company_short = "Station Council"
+	company_name  = "Station Authority"
+	company_short = "Station Authority"
 	system_name = "Moscow Metro"
 
 	lobby_icon = 'maps/metro/fullscreen.dmi'
@@ -29,7 +29,7 @@
 	emergency_shuttle_leaving_dock = "The emergency escape shuttle has departed from %dock_name%."
 	emergency_shuttle_called_message = "An emergency escape shuttle has been sent."
 	emergency_shuttle_recall_message = "The emergency shuttle has been recalled"
-	map_lore = "Lermontovsky Prospekt was founded as a neutral station, and is run by a powerful family."
+	map_lore = "Cheshov Prospekt was founded as a neutral station, and is run by a powerful family."
 
 
 

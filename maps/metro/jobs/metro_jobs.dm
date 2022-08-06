@@ -6,6 +6,15 @@
 	/datum/job/station/proprietor,
 	/datum/job/station/cook,
 	/datum/job/station/amuser,
+	/datum/job/station/miner,
+	/datum/job/station/stalker,
+	/datum/job/station/headpractitioner,
+	/datum/job/station/nurse,
+	/datum/job/station/administrator,
+	/datum/job/station/commisariat,
+	/datum/job/station/premier,
+	/datum/job/station/merchant,
+	/datum/job/station/commander,
 	/datum/job/refugee,
 	)
 

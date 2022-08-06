@@ -330,7 +330,7 @@
 
 /obj/item/reagent_containers/food/drinks/bottle/bluecuracao
 	name = "Blue Curacao"
-	desc = "A fruity, exceptionally azure drink. Somehow still popular in the Grimdarkness!"
+	desc = "A fruity, exceptionally azure drink. Somehow still popular in the post-nuclear Metro!"
 	icon_state = "alco-blue" //Placeholder.
 	center_of_mass = "x=16;y=6"
 	New()

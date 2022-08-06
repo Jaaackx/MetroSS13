@@ -490,6 +490,11 @@
 /obj/effect/floor_decal/turf/metal/five,
 /turf/simulated/floor/tiled/white,
 /area/cadiaoutpost/oa/service/chapel)
+"cb" = (
+/obj/effect/floor_decal/turf/plating,
+/obj/effect/landmark/start/metro/commander,
+/turf/simulated/floor/tiled/dark,
+/area/cadiaoutpost/oa/hallway/centralhall)
 "ce" = (
 /obj/item/pyre/self_lit,
 /obj/effect/floor_decal/turf/nf2,
@@ -2140,6 +2145,11 @@
 	},
 /turf/simulated/floor/stone/chapel,
 /area/cadiaoutpost/oa/service/chapel)
+"kE" = (
+/obj/effect/floor_decal/turf/plating,
+/obj/effect/landmark/start/metro/administrator,
+/turf/simulated/floor/tiled/dark,
+/area/cadiaoutpost/oa/hallway/centralhall)
 "kG" = (
 /obj/structure/kitchenspike,
 /turf/simulated/floor/dirty/fake,
@@ -2581,6 +2591,11 @@
 /obj/item/storage/box/ifak,
 /turf/simulated/floor/stone/chapel,
 /area/cadiaoutpost/oa/service/chapel)
+"mB" = (
+/obj/effect/floor_decal/turf/plating,
+/obj/effect/landmark/start/metro/refugee,
+/turf/simulated/floor/tiled/dark,
+/area/cadiaoutpost/oa/hallway/centralhall)
 "mC" = (
 /obj/structure/closet/secure_closet/brig,
 /turf/simulated/floor/tiled{
@@ -2749,6 +2764,11 @@
 	},
 /turf/simulated/floor/tiled/dark,
 /area/cadiaoutpost/oa/supply/mining/eva)
+"nr" = (
+/obj/effect/floor_decal/turf/plating,
+/obj/effect/landmark/start/metro/stalker,
+/turf/simulated/floor/tiled/dark,
+/area/cadiaoutpost/oa/hallway/centralhall)
 "nv" = (
 /obj/effect/floor_decal/turf/plating,
 /obj/structure/anti_tank,
@@ -3609,6 +3629,11 @@
 	},
 /turf/simulated/floor/tiled/dark,
 /area/cadiaoutpost/oa/security)
+"qY" = (
+/obj/effect/floor_decal/turf/plating,
+/obj/effect/landmark/start/metro/headpractitioner,
+/turf/simulated/floor/tiled/dark,
+/area/cadiaoutpost/oa/hallway/centralhall)
 "qZ" = (
 /obj/item/ammo_magazine/flamer,
 /turf/simulated/floor/stone,
@@ -3648,6 +3673,11 @@
 /obj/effect/floor_decal/turf/surgery2,
 /turf/simulated/floor/plating,
 /area/cadiaoutpost/oa/caves/dark)
+"rj" = (
+/obj/effect/floor_decal/turf/plating,
+/obj/effect/landmark/start/metro/nurse,
+/turf/simulated/floor/tiled/dark,
+/area/cadiaoutpost/oa/hallway/centralhall)
 "rk" = (
 /obj/structure/torchwall{
 	dir = 8;
@@ -3672,6 +3702,11 @@
 	color = "grey"
 	},
 /area/cadiaoutpost/oa/service/chapel)
+"rr" = (
+/obj/effect/floor_decal/turf/plating,
+/obj/effect/landmark/start/metro/premier,
+/turf/simulated/floor/tiled/dark,
+/area/cadiaoutpost/oa/hallway/centralhall)
 "ru" = (
 /obj/structure/table/marble{
 	color = "grey"
@@ -4150,6 +4185,11 @@
 	},
 /turf/simulated/floor/tiled,
 /area/cadiaoutpost/oa/caves/dark)
+"tz" = (
+/obj/effect/floor_decal/turf/plating,
+/obj/effect/landmark/start/metro,
+/turf/simulated/floor/tiled/dark,
+/area/cadiaoutpost/oa/hallway/centralhall)
 "tA" = (
 /obj/effect/floor_decal/turf/brick,
 /obj/effect/floor_decal/turf/surgery2,
@@ -6667,6 +6707,11 @@
 /obj/item/reagent_containers/food/snacks/bloodsoup,
 /turf/simulated/floor/stone,
 /area/cadiaoutpost/oa/service/chapel)
+"ER" = (
+/obj/effect/floor_decal/turf/plating,
+/obj/effect/landmark/start/metro/commisariat,
+/turf/simulated/floor/tiled/dark,
+/area/cadiaoutpost/oa/hallway/centralhall)
 "ET" = (
 /obj/machinery/door/airlock/cone{
 	name = "Janitorium Storage"
@@ -7258,6 +7303,11 @@
 	},
 /turf/simulated/floor/stone,
 /area/cadiaoutpost/oa/caves/undercity)
+"Hi" = (
+/obj/effect/floor_decal/turf/plating,
+/obj/effect/landmark/start/metro/resident,
+/turf/simulated/floor/tiled/dark,
+/area/cadiaoutpost/oa/hallway/centralhall)
 "Hj" = (
 /obj/machinery/body_scanconsole{
 	desc = "A readout for a device you don't understand.";
@@ -7315,6 +7365,11 @@
 	color = "grey"
 	},
 /area/cadiaoutpost/oa/caves/dark)
+"Hw" = (
+/obj/effect/floor_decal/turf/plating,
+/obj/effect/landmark/start/metro/cook,
+/turf/simulated/floor/tiled/dark,
+/area/cadiaoutpost/oa/hallway/centralhall)
 "Hx" = (
 /obj/effect/floor_decal/turf/plating,
 /obj/structure/closet/cabinet{
@@ -7448,6 +7503,11 @@
 	},
 /turf/simulated/floor/carpet/purple,
 /area/cadiaoutpost/oa/caves/dark)
+"Ie" = (
+/obj/effect/floor_decal/turf/plating,
+/obj/effect/landmark/start/metro/amuser,
+/turf/simulated/floor/tiled/dark,
+/area/cadiaoutpost/oa/hallway/centralhall)
 "If" = (
 /obj/structure/cable{
 	icon_state = "1-4"
@@ -8078,6 +8138,11 @@
 	color = "gray"
 	},
 /area/cadiaoutpost/oa/caves/dark)
+"KK" = (
+/obj/effect/floor_decal/turf/plating,
+/obj/effect/landmark/start/metro/proprietor,
+/turf/simulated/floor/tiled/dark,
+/area/cadiaoutpost/oa/hallway/centralhall)
 "KL" = (
 /obj/effect/floor_decal/turf/basalt0,
 /obj/item/melee/classic_baton/daemonhammer,
@@ -9246,6 +9311,11 @@
 	color = "grey"
 	},
 /area/cadiaoutpost/oa/caves/dark)
+"Qb" = (
+/obj/effect/floor_decal/turf/plating,
+/obj/effect/landmark/start/metro/miner,
+/turf/simulated/floor/tiled/dark,
+/area/cadiaoutpost/oa/hallway/centralhall)
 "Qf" = (
 /obj/structure/table/standard{
 	color = "grey"
@@ -9519,7 +9589,7 @@
 /obj/item/handcuffs/cable/white,
 /obj/item/handcuffs/cable/white,
 /obj/item/clothing/head/helmet/mining{
-	armor = list("melee" = 40, "bullet" = 35, "laser" = 40, "energy" = 30, "bomb" = 30, "bio" = 10, "rad" = 30);
+	armor = list("melee"=40,"bullet"=35,"laser"=40,"energy"=30,"bomb"=30,"bio"=10,"rad"=30);
 	name = "Penitent Visor"
 	},
 /turf/simulated/floor/wood,
@@ -10551,6 +10621,11 @@
 	icon_state = "steel"
 	},
 /area/cadiaoutpost/oa/caves/dark)
+"Wk" = (
+/obj/effect/floor_decal/turf/plating,
+/obj/effect/landmark/start/metro/merchant,
+/turf/simulated/floor/tiled/dark,
+/area/cadiaoutpost/oa/hallway/centralhall)
 "Wl" = (
 /obj/effect/floor_decal/turf/bloodbar/off,
 /obj/structure/table/rack/dark,
@@ -41558,7 +41633,7 @@ PF
 Gs
 aH
 PF
-PF
+nr
 ke
 ev
 TA
@@ -41809,13 +41884,13 @@ Dx
 ag
 ke
 PF
-PF
-PF
-PF
-PF
-PF
-PF
-PF
+tz
+Ie
+ER
+qY
+Qb
+rr
+mB
 ke
 bA
 TA
@@ -42066,13 +42141,13 @@ Dx
 Dx
 ke
 PF
-PF
-PF
-PF
-PF
-PF
-PF
-PF
+kE
+cb
+Hw
+Wk
+rj
+KK
+Hi
 ke
 BA
 TA

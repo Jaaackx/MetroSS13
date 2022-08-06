@@ -1681,11 +1681,11 @@
 		if(SOCIAL_CLASS_MIN)
 			return "<b>filth</b>"
 		if(SOCIAL_CLASS_MED)
-			return "<b>your average Imperial citizen</b>"
+			return "<b>your average Metro citizen</b>"
 		if(SOCIAL_CLASS_HIGH)
-			return "<b>an important Imperial citizen</b>"
+			return "<b>an important Metro citizen</b>"
 		if(SOCIAL_CLASS_MAX)
-			return "<b>at the pinnacle of Imperial society</b>"
+			return "<b>in the upper echelon of Metro society</b>"
 
 
 /mob/living/carbon/human/proc/get_social_description(var/mob/living/carbon/human/H)

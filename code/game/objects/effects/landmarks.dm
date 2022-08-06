@@ -912,3 +912,47 @@ Template:
 
 /obj/effect/landmark/ert
 	name = "ert"
+
+// Metro
+
+/obj/effect/landmark/start/metro/stalker
+	name = "Stalker"
+
+/obj/effect/landmark/start/metro/resident
+	name = "Resident"
+
+/obj/effect/landmark/start/metro/proprietor
+	name = "Proprietor"
+
+/obj/effect/landmark/start/metro/administrator
+	name = "Administrator"
+
+/obj/effect/landmark/start/metro/cook
+	name = "Cook"
+
+/obj/effect/landmark/start/metro/amuser
+	name = "Amuser"
+
+/obj/effect/landmark/start/metro/merchant
+	name = "Merchant"
+
+/obj/effect/landmark/start/metro/commisariat
+	name = "Commisariat"
+
+/obj/effect/landmark/start/metro/commander
+	name = "Commander"
+
+/obj/effect/landmark/start/metro/miner
+	name = "Miner"
+
+/obj/effect/landmark/start/metro/nurse
+	name = "Nurse"
+
+/obj/effect/landmark/start/metro/headpractitioner
+	name = "Head Practitioner"
+
+/obj/effect/landmark/start/metro/premier
+	name = "Premier"
+
+/obj/effect/landmark/start/metro/refugee
+	name = "Refugee"
