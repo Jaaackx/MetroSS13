@@ -52,7 +52,7 @@ datum/preferences
 		save_character()
 
 /datum/preferences/proc/ShowChoices(mob/user)
-	var/dat = "<html><head><title>Warhammer Explorer!</title>"
+	var/dat = "<html><head><title>Metro Explorer</title>"
 	dat += "<style type='text/css'>html {overflow: auto;};"
 	dat += "body {"
 	dat += "overflow:hidden;"
@@ -90,7 +90,7 @@ datum/preferences
 	if(path)
 		dat += "<a onfocus ='this.blur()' href='?src=\ref[src];save=1'>Save Slot</a> -"
 		dat += "<a onfocus ='this.blur()' href='?src=\ref[src];resetslot=1'>Reset Slot</a> -"
-		dat += "<a onfocus ='this.blur()' href='?src=\ref[src];load=1'>Personalities in your head</a>"
+		dat += "<a onfocus ='this.blur()' href='?src=\ref[src];load=1'>Personalities In Your Head</a>"
 	dat += "<br>"
 	dat += player_setup.header()
 	dat += "<br>"

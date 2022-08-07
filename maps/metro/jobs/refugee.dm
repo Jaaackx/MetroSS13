@@ -165,7 +165,7 @@ Pilgrim Fate System
 			U.add_stats(rand(10,14), rand(10,14), rand(10,14), rand (8,12)) //
 			U.add_skills(rand(1,5),rand(1,6),rand(3,5),rand(1,2),rand(3,5)) //melee, ranged, med, eng, surgery
 			equip_to_slot_or_del(new /obj/item/clothing/mask/gas/prac_mask, slot_wear_mask)
-			equip_to_slot_or_del(new /obj/item/clothing/suit/prac_arpon, slot_wear_suit)
+			equip_to_slot_or_del(new /obj/item/clothing/suit/prac_apron, slot_wear_suit)
 			equip_to_slot_or_del(new /obj/item/storage/backpack/satchel/warfare, slot_back)
 			equip_to_slot_or_del(new /obj/item/storage/firstaid/adv, slot_l_hand)
 			equip_to_slot_or_del(new /obj/item/storage/belt/medical/full, slot_belt)

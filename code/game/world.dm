@@ -9,19 +9,19 @@
 
 	//Thooloo did this. I have no idea why he did.
 	var/list/gods = list(
-	"The Emperor",
-	"Khaine",
-	"Khorne",
-	"Nurgle",
-	"Slaanesh",
-	"Tzeentch",
-	"C'tan",
-	"Malice",
-	"Ans'l",
-	"Mo'rcck",
-	"Phraz-Etar",
-	"Gork",
-	"Mork",
+	"Riga",
+	"Alexeyevska",
+	"Polis",
+	"Smolenskaya",
+	"D6",
+	"Kremlin",
+	"VDNKh",
+	"Armory",
+	"Lubyanka",
+	"Sevastopolskaya_Station",
+	"Botanicheskiy Sad",
+	"Tulskaya",
+	"Kitay-gorod",
 	)
 
 	var/timestamp = world.timeofday % 500

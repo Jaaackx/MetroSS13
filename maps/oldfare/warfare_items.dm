@@ -460,7 +460,7 @@
 
 
 
-/obj/item/clothing/suit/prac_arpon
+/obj/item/clothing/suit/prac_apron
 	name = "practioner robes"
 	desc = "Worn by practioners and other surgeons."
 	icon_state = "prac_robes"

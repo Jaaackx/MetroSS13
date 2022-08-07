@@ -61,6 +61,7 @@ Miscellaneous roles.
 	social_class = SOCIAL_CLASS_MED
 	total_positions = 2
 	spawn_positions = 2
+	outfit_type = /decl/hierarchy/outfit/job/stalker
 	supervisors = "Station Authority"
 	alt_titles = list("Scavenger","Prospector","Bounty Hunter","Ratcatcher")
 
@@ -84,6 +85,7 @@ Make money, purchase food and drink from various sources to keep your patrons ha
 	social_class = SOCIAL_CLASS_HIGH
 	total_positions = 1
 	spawn_positions = 1
+	outfit_type = /decl/hierarchy/outfit/job/proprietor
 	supervisors = "Station Authority"
 	announced = TRUE
 	shotgun_skill = 6

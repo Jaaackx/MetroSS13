@@ -152,7 +152,7 @@ Pilgrim Fate System
 		if("Disgraced Medicae")
 			U.add_skills(0,0,rand(5,9),0,rand(5,9))
 			equip_to_slot_or_del(new /obj/item/clothing/mask/gas/prac_mask, slot_wear_mask)
-			equip_to_slot_or_del(new /obj/item/clothing/suit/prac_arpon, slot_wear_suit)
+			equip_to_slot_or_del(new /obj/item/clothing/suit/prac_apron, slot_wear_suit)
 			equip_to_slot_or_del(new /obj/item/storage/backpack/satchel/warfare, slot_back)
 			equip_to_slot_or_del(new /obj/item/storage/firstaid/adv, slot_l_hand)
 			equip_to_slot_or_del(new /obj/item/storage/belt/medical/full, slot_belt)

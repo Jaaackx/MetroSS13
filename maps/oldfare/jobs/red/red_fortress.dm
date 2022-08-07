@@ -58,7 +58,7 @@
 	uniform = /obj/item/clothing/under/red_uniform
 	back = /obj/item/storage/backpack/satchel/warfare
 	gloves = /obj/item/clothing/gloves/prac_gloves
-	suit = /obj/item/clothing/suit/prac_arpon
+	suit = /obj/item/clothing/suit/prac_apron
 	mask = /obj/item/clothing/mask/gas/prac_mask
 	shoes = /obj/item/clothing/shoes/prac_boots
 	l_ear = /obj/item/device/radio/headset/syndicate

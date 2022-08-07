@@ -408,7 +408,7 @@
 	min_cold_protection_temperature = SPACE_SUIT_MIN_COLD_PROTECTION_TEMPERATURE
 
 
-/obj/item/clothing/suit/prac_arpon
+/obj/item/clothing/suit/prac_apron
 	name = "practioner robes"
 	desc = "Worn by practioners and other surgoens."
 	icon_state = "prac_robes"
