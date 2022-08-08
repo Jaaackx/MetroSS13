@@ -14,6 +14,7 @@ No responsibilities, considered the 'off-shift' role.
 	outfit_type = /decl/hierarchy/outfit/job/station
 	latejoin_at_spawnpoints = TRUE
 	announced = FALSE
+	role_desc = "You are a simple Resident of Cheshov Prospekt, owning a small piece of property within the station."
 
 	auto_rifle_skill = 2
 	semi_rifle_skill = 2
@@ -34,7 +35,7 @@ No responsibilities, considered the 'off-shift' role.
 //		H.add_skills(rand(2,6),rand(4,7),rand(1,2),rand(1,2),rand(1,2))
 		H.warfare_language_shit(LANGUAGE_RUSSIAN)
 		H.assign_random_quirk()
-		to_chat(H, "<span class='notice'><b><font size=3>You are a simple resident of Cheshov Prospekt.</font></b></span>")
+		to_chat(H, "<span class='notice'><b><font size=3>You are a simple Resident of Cheshov Prospekt.</font></b></span>")
 
 /*------------------------------------------------------------------------------------------------------------------------------------------------------
 Miscellaneous roles.
@@ -46,6 +47,7 @@ Miscellaneous roles.
 	total_positions = 2
 	spawn_positions = 2
 	supervisors = "Station Authority"
+	role_desc = "You are a miner. The factory in Cheshov Prospekt requires raw resources to drive production, which you are happy to provide. Years of burrowing from mutants have left tunnels all beneath the station, which you are now free to explore."
 
 	equip(var/mob/living/carbon/human/H)
 		H.warfare_faction = STATION
@@ -64,6 +66,7 @@ Miscellaneous roles.
 	outfit_type = /decl/hierarchy/outfit/job/stalker
 	supervisors = "Station Authority"
 	alt_titles = list("Scavenger","Prospector","Bounty Hunter","Ratcatcher")
+	role_desc = "You are a Stalker based out of Cheshov Prospekt. Kill mutants and return their ears in return for MGR or scavenge resources and books from the surface and tunnels. Expect to spend long periods of time away from the station."
 
 	equip(var/mob/living/carbon/human/H)
 		H.warfare_faction = STATION

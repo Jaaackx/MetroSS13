@@ -29,7 +29,7 @@
 	emergency_shuttle_leaving_dock = "The emergency escape shuttle has departed from %dock_name%."
 	emergency_shuttle_called_message = "An emergency escape shuttle has been sent."
 	emergency_shuttle_recall_message = "The emergency shuttle has been recalled"
-	map_lore = "Cheshov Prospekt was founded as a neutral station, and is run by a powerful family."
+	map_lore = "Cheshov Prospekt is a non-canon neutral station in the otherwise abandoned Southern portion of the Zamoskvoretskaya line."
 
 
 
